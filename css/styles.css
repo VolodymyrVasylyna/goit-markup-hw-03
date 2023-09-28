@@ -23,18 +23,15 @@ a {
 
 /* header */
 .header {
-   
-    padding-bottom: 25.5px;
+  padding-bottom: 25px;
+}
+.header-container {
+display: flex;
 }
 
-.container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-
-}
 .nav {
+    flex-grow: 1;
+    display: flex;
     padding-top: 25.5px;
 }
 .header-logo {
@@ -57,6 +54,12 @@ a {
     text-transform: uppercase;
 }
 
+ .header-list {
+    display: flex;
+    gap: 40px;
+ }
+
+
 .header-link {
     color: #2E2F42;
     font-weight: 500;
@@ -71,6 +74,10 @@ a {
 
 address {
     font-style: normal;
+}
+ .address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .email {
@@ -262,3 +269,11 @@ address {
 }
 
 /* -------- */
+.container {
+
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
