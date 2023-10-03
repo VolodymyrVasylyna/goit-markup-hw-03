@@ -70,7 +70,6 @@ a {
 .header-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
     margin: 0 auto;
     margin-left: 72px;
 }
@@ -90,6 +89,7 @@ a {
 
 address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-list {
@@ -97,8 +97,7 @@ address {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin: 0 auto;
-    margin-left: 332px;
+
 }
 
 .email {
